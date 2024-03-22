@@ -1,33 +1,12 @@
-:root {
-    --azul:#fff;
-    --color-text: #D75438;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: caveat;
-}
-body {
-    background-color:var(--azul);
-}
-
-header {
-    background-color: bisque;
-    color:var(--color-text);
+.navegacion {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
-
-a {
+.logo {
     
-    color:var(--color-text);
-    text-decoration: none;
-
-}
-
-nav  {
-    display: flex;
-    gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
 }
