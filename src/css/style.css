@@ -1,12 +1,33 @@
 .navegacion {
+    background-color: #3D0000; 
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: caveat;
 }
+
 .logo {
     
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
+        gap: 10px;
+        
 }
+
+button {
+    border: 3px solid #F22B29;
+    border-radius: 20px;
+}
+ input {
+    border: 3px solid #F22B29;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+}
+ 
