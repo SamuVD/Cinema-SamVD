@@ -7,28 +7,36 @@
     padding: 16px 32px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .logo {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 40px;
-}
-
-h2 {
-    text-align: center;
-    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .titulo-img {
     font-size: 18px;
     display: flex;
     align-items: center;
+}
+
+.anclas {
+    text-decoration: none;
+    display: flex;
+    gap: 15px;
+}
+
+.anclas >::placeholder {
+    color: white;
+}
+
+.input-quemado {
+    background-color: blueviolet;
+    font-size: larger;
+    border: 6px solid blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    height: 16px;
 }
 
 .fondo {
@@ -39,39 +47,6 @@ h2 {
 .organizacion {
     display: flex;
     flex-flow: row wrap;
-}
-
-button a {
-    color: white;
-}
-button {
-    background-color: blueviolet;
-    border: 6px solid blueviolet;
-    border-radius: 20px;
-}
- .input-quemado{
-    background-color: blueviolet;
-    font-size: larger;
-    border: 6px solid blueviolet;
-    border-radius: 20px;
-    padding: 10px;
-    height: 16px;
-}
-.anclas >::placeholder{
-    color: white;
-}
-    
-a {
-    font-size: larger;
-    text-decoration: none;
-    padding: 10px;
-    height: 16px;   
-}
-
-.anclas {
-    text-decoration: none;
-    display: flex;
-    gap: 15px;
 }
 
 .config-img {
@@ -86,12 +61,14 @@ a {
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.config-img img{
+
+.config-img img {
     width: 300px;
     height: 500px;
     border: 7px solid blueviolet;
     border-radius: 20px;
 }
+
 .descripcion {
     color: white;
     display: flex;
@@ -99,11 +76,6 @@ a {
     align-items: start;
     justify-content: start;
     margin-left: -70px;
-}
-
-h2 {
-    color: white;
-    padding: 40px;
 }
 
 form {
@@ -182,4 +154,37 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button a {
+    color: white;
+}
+
+button {
+    background-color: blueviolet;
+    border: 6px solid blueviolet;
+    border-radius: 20px;
+}
+
+a {
+    font-size: larger;
+    text-decoration: none;
+    padding: 10px;
+    height: 16px;   
+}
+
+h2 {
+    color: white;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
 }
