@@ -31,3 +31,16 @@ nav  {
     display: flex;
     gap: 20px;
 } */
+
+/* cursor pointer */
+
+/* display: flex; organiza en horizontal por defecto
+align-items: center; organiza en el eje y
+justify-content: center; organiza en el eje x */
+
+/* .cine {
+display: flex; organiza en vertical por defecto
+flex-direction: column; 
+align-items: center; organiza en el eje x
+justify-content: center; organiza en el eje y
+} */
